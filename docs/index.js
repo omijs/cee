@@ -20,6 +20,7 @@ const path = require("path");
 const fs = require("fs");
 const marked = require("marked");
 const libraryMap = {
+  omi: "Omi",
   angular: "Angular",
   angularjs: "AngularJS (1.x)",
   dio: 'DIO',
@@ -28,7 +29,6 @@ const libraryMap = {
 	hyperhtml: "hyperHTML",
 	litelement: "Lit Element",
   mithril: "Mithril",
-  omi: "Omi",
   polymer: "Polymer",
   preact: "Preact",
   react: "React",
