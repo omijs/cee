@@ -65,7 +65,7 @@ const out = render({ libraries: buildContext(libraries) });
 function buildContext(libraries) {
   return libraries.map(library => {
     return Object.assign(
-      { name: library, fullName: libraryMap[library] },
+      { name: library, fullName: libraryMap[library], isOmi: library === 'omi' },
       {
         results: getTestResults(library),
         issues: getIssues(library),
