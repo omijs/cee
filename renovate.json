@@ -1,0 +1,11 @@
+{
+  "extends": [":base"],
+  "ignoreDeps": ["expect"],
+  "automerge": true,
+  "major": {
+    "automerge": false
+  },
+  "masterIssue": true,
+  "timezone": "America/Los_Angeles",
+  "schedule": ["on friday"]
+}
